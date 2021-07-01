@@ -1,4 +1,4 @@
-package com.example.task;
+package com.edirley.todo.entity;
 
 
 import lombok.Data;
@@ -12,7 +12,7 @@ public class Task {
 
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    private Long id;
+    private Integer id;
 
     @Column
     @NotNull(message = "{NotNull.Task.name}")

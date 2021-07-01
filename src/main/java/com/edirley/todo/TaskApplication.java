@@ -1,4 +1,4 @@
-package com.example.task;
+package com.edirley.todo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
